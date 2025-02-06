@@ -1,0 +1,85 @@
+{
+  "certificates": [
+    {
+      "title": "Python for Data Science",
+      "issuer": "IBM",
+      "date": "2024",
+      "pdf": "./src/assets/certificates/python-for-data-science.pdf"
+    },
+    {
+      "title": "SQL Certification Course",
+      "issuer": "Simplilearn",
+      "date": "2024",
+      "pdf": "./src/assets/certificates/SQL.pdf"
+    },
+    {
+      "title": "Statistics Essential for Data Science",
+      "issuer": "Simplilearn",
+      "date": "2024",
+      "pdf": "N/A"
+    },
+    {
+      "title": "Data Science with Python",
+      "issuer": "Simplilearn",
+      "date": "2024",
+      "pdf": "./src/assets/certificates/Data Science with python.pdf"
+    },
+
+
+    {
+      "title": "Industry - Master Class",
+      "issuer": "Simplilearn",
+      "date": "2024",
+      "pdf": "./src/assets/certificates/Industry Master Class - Data Science.pdf"
+    },
+
+    {
+      "title": "Deep Learning for Beginners",
+      "issuer": "Simplilearn",
+      "date": "2024",
+      "pdf": "./src/assets/certificates/Deep_Learning_for_Beginners.pdf"
+    },
+    {
+      "title": "Machine Learning Using Python",
+      "issuer": "Simplilearn",
+      "date": "2024",
+      "pdf": "N/A"
+    },
+    {
+      "title": "Business Analytics with Excel",
+      "issuer": "Simplilearn",
+      "date": "2024",
+      "pdf": "N/A"
+    },
+    {
+      "title": "Intermediate Machine Learning",
+      "issuer": "Kaggle",
+      "date": "2024",
+      "pdf": "N/A"
+    },
+    {
+      "title": "PL-300 Microsoft Power BI Certification Training",
+      "issuer": "Simplilearn",
+      "date": "2024",
+      "pdf": "N/A"
+    },
+    {
+      "title": "Tata Data Visualisation Job Simulation",
+      "issuer": "Forage",
+      "date": "2024",
+      "pdf": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/MyXvBcppsW2FkNYCX_ifobHAoMjQs9s6bKS_6Wx5nh6s8cvspB5ui_1732875353705_completion_certificate.pdf"
+    },
+    {
+      "title": "BCG Data Science Job Simulation",
+      "issuer": "Forage",
+      "date": "2024",
+      "pdf": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/SKZxezskWgmFjRvj9/Tcz8gTtprzAS4xSoK_SKZxezskWgmFjRvj9_6Wx5nh6s8cvspB5ui_1732952662140_completion_certificate.pdf"
+    },
+    {
+      "title": "AWS APAC Solutions Architecture Virtual Experience Program",
+      "issuer": "Forage",
+      "date": "2024",
+      "pdf": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/mfxGwGDp6WkQmtmTf/vcKAB5yYAgvemepGQ_mfxGwGDp6WkQmtmTf_6Wx5nh6s8cvspB5ui_1732800995529_completion_certificate.pdf"
+    }
+  ]
+}

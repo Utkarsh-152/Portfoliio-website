@@ -1,0 +1,17 @@
+src/
+  ├── components/
+  │   ├── Home.jsx
+  │   ├── About.jsx
+  │   ├── Skills.jsx
+  │   ├── Projects.jsx
+  │   ├── Contact.jsx
+  │   ├── Experience.jsx
+  │   └── MeteorShower.jsx
+  ├── data/
+  │   ├── projects.json
+  │   ├── certificates.json
+  │   └── skills.json
+  ├── styles/
+  │   └── main.css
+  ├── App.jsx
+  └── index.js

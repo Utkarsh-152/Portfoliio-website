@@ -1,0 +1,32 @@
+{
+  "technicalSkills": [
+    {
+      "category": "Frontend",
+      "skills": ["HTML5", "CSS3", "JavaScript", "React"]
+    },
+    {
+      "category": "Backend",
+      "skills": ["Node.js", "Python", "Flask", "MySQL", "MongoDB"]
+    },
+
+    {
+      "category": "Data Science",
+      "skills": ["Python", "Pandas", "NumPy", "Scikit-learn", "TensorFlow"]
+    },
+    {
+      "category": "Data Analysis",
+      "skills": [
+        { "name": "Python" },
+        { "name": "SQL" },
+        { "name": "Power BI" },
+        { "name": "Excel" }
+      ]
+
+    },
+    {
+      "category": "Tools",
+      "skills": ["Git", "AWS", "VS Code"]
+    }
+
+  ]
+} 
