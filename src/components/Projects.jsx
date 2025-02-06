@@ -76,6 +76,12 @@ const Projects = () => {
                     <img 
                       src={project.image} 
                       loading="lazy"
+                      onError={(e) => {
+                        e.target.onerror = null; // Prevent infinite loop
+                        e.target.src = '/images/fallback.png'; // Optional fallback image
+                        console.log(`Failed to load image for ${project.title}`);
+                      }}
+                      alt={project.title}
                     />
                   </div>
                 )}
