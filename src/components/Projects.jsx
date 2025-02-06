@@ -10,49 +10,48 @@ const Projects = () => {
   const projectCardsRef = useRef([]);
 
   useEffect(() => {
-    // Main projects section animation
+    // Main projects section animation - faster duration and scrub
     gsap.fromTo(
       projectsRef.current,
       { 
-        opacity: 0.1,
+        opacity: 0.10,
         y: 100 
       },
       {
         opacity: 1,
         y: 0,
-        duration: 1,
-        ease: "power3.out",
+        duration: 1, // Reduced from 2
+        ease: "power3.out", // Changed to power3 for faster easing
         scrollTrigger: {
-          trigger: ".projects-wrapper", // Changed to wrapper class
-          start: "top 80%",
-          end: "top 30%",
-          scrub: 1,
+          trigger: projectsRef.current,
+          start: "top 85%",
+          end: "top 60%", // Shorter animation range
+          scrub: 1, // Reduced from 2 for faster response
           toggleActions: "play none none reverse"
         }
       }
     );
 
-    // Project cards staggered animation
+    // Project cards staggered animation - faster animations
     projectCardsRef.current.forEach((card, index) => {
       gsap.fromTo(
         card,
         {
           opacity: 0,
-          y: 30,
-          scale: 0.98
+          y: 30, // Reduced from 50 for shorter distance
+          scale: 0.98 // Less scale change for faster perception
         },
         {
           opacity: 1,
           y: 0,
           scale: 1,
-          duration: 0.8,
-          delay: index * 0.1, // Add delay for stagger effect
-          ease: "power2.out",
+          duration: 0.8, // Reduced from 1.5
+          ease: "power2.out", // Changed for snappier animation
           scrollTrigger: {
-            trigger: ".projects-wrapper", // Changed to wrapper class
-            start: "top 70%",
-            end: "top 20%",
-            scrub: 0.8,
+            trigger: card,
+            start: "top 90%",
+            end: "top 60%", // Shorter animation range
+            scrub: 0.8, // Reduced from 1.5 for faster response
             toggleActions: "play none none reverse"
           }
         }

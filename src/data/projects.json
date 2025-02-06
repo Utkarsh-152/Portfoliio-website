@@ -5,7 +5,7 @@
       "description": "A Power BI Hospitality Revenue Analytics Dashboard analyzing RevPAR, ADR, and occupancy rates to optimize revenue strategies.",
       "techStack": ["Power BI", "Excel", "Data Visualization"],
       "githubUrl": "https://github.com/Utkarsh-152/Revenue-Insights-in-Hospitality-Domain",
-      "image": "public/images/Revenue Insights In Hospitality Domain.png"
+      "image": "/images/Revenue Insights In Hospitality Domain.png"
     },
 
 
@@ -14,7 +14,7 @@
       "description": "A machine learning-based Loan Approval Prediction System with Flask, MySQL, and Scikit-learn, achieving 97.4% accuracy.",
       "techStack": ["Flask", "MySQL", "Scikit-learn", "Bootstrap"],
       "githubUrl": "https://github.com/Utkarsh-152/Utkarsh-152-Loan-Approval-Prediction",
-      "image": "public/images/Loan approvall prediction.png"
+      "image": "/images/Loan approvall prediction.png"
       },
     {
       "title": "Employee Turnover Analytics",
@@ -29,7 +29,7 @@
       "description": "A real-time collaborative code editor using React, Node.js, and Socket.IO, enabling multi-user live coding and AI-assisted development.",
       "techStack": ["React", "Node.js", "Socket.IO", "JWT", "Redis"],
       "githubUrl": "https://github.com/Utkarsh-152/Collaborative-Code-Editor-Platform.git",
-      "image": "public/images/Collab.png"
+      "image": "/images/Collab.png"
     },
     {
       "title": "Depression Prediction Model",
