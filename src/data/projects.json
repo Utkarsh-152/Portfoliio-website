@@ -21,7 +21,7 @@
       "description": "EDA and visualization of employee turnover drivers, including satisfaction levels, evaluation scores, and workload, using clustering and predictive modeling.",
       "techStack": ["Python", "Pandas", "Matplotlib", "Scikit-learn"],
       "githubUrl": "https://github.com/Utkarsh-152/Employee-Turnover-Prediction-and-Retention-Strategy",
-      "image": "public/images/Employee Turnover Analytics.png"
+      "image": "/images/Employee Turnover Analytics.png"
     },
 
     {
@@ -36,7 +36,7 @@
       "description": "Designed a 94%-accurate predictive model to classify depression and analyze key factors influencing mental health.",
       "techStack": ["Python", "Scikit-learn", "Pandas", "Kaggle"],
       "githubUrl": "https://www.kaggle.com/code/utkarshtripathishrey/catboost-classifier-prediction",
-      "image": "public/images/Depress.png"
+      "image": "/images/Collab.png"
 
     },
     {
@@ -44,7 +44,7 @@
       "description": "A full-stack e-commerce website. It demonstrates various backend functionalities including user authentication, shopping cart management, and data associations.",
       "techStack": ["Node.js", "Express.js", "MongoDB", "EJS"],
       "githubUrl": "https://github.com/Utkarsh-152/Scatch-Backend-Project",
-      "image": "public/images/Scatch.png"
+      "image": "/images/scatch.png"
 
     },
     {
@@ -52,7 +52,7 @@
       "description": "A comprehensive employee management system with features for employee management, work allocation, and performance tracking.",
       "techStack": ["React", "Node.js", "MongoDB", "EJS"],
       "githubUrl": "https://github.com/Utkarsh-152/Employee-Management-System",
-      "image": "public/images/empManagement.png"
+      "image": "/images/empManagement.png"
     },
 
 
@@ -62,7 +62,7 @@
       "description": "Data analytics project, Performed Exploratory Data Analysis and implemented a predictive model to analyze key drivers of churn.",
       "techStack": ["Python", "Pandas", "Matplotlib", "Scikit-learn"],
       "githubUrl": "https://github.com/Utkarsh-152/Customer-Churn-Analytics",
-      "image": "public/images/cust_churn.png"
+      "image": "/images/cust_churn.png"
 
 
 
