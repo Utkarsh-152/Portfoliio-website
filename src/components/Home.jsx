@@ -22,7 +22,7 @@ const Home = () => {
       <div className="container">
         <div ref={titleRef}>
           <h1 className="display-1">
-            Portfolio of
+            Portfolio
             <br />
             <span className="text-gradient">Utkarsh Tripathi</span>
           </h1>
