@@ -19,40 +19,35 @@ const About = () => {
       {
         opacity: 1,
         y: 0,
-        duration: 1.5,
+        duration: 1,
         scrollTrigger: {
-          trigger: contentRef.current,
-          start: "top center",
-          end: "+=200",
-          scrub: 1,
-
+          trigger: ".about-wrapper",
+          start: "top 80%",
+          end: "top 30%",
+          scrub: 1
         }
       }
     );
 
     // Info items animation
-    infoItemsRef.current.forEach((item, index) => {
-      gsap.fromTo(
-        item,
-        { 
-          opacity: 0,
-          x: -50 
-        },
-        {
-          opacity: 1,
-          x: 0,
-          duration: 0.2,
-          scrollTrigger: {
-            trigger: item,
-            start: "top center",
-            end: "top top",
-            scrub: 0.5,
-            toggleActions: "play none none reverse"
-
-          }
+    gsap.fromTo(
+      infoItemsRef.current,
+      { 
+        opacity: 0,
+        x: -50 
+      },
+      {
+        opacity: 1,
+        x: 0,
+        stagger: 0.1,
+        scrollTrigger: {
+          trigger: ".about-wrapper",
+          start: "top 70%",
+          end: "top 20%",
+          scrub: 0.5
         }
-      );
-    });
+      }
+    );
   }, []);
 
   return (
@@ -64,8 +59,8 @@ const About = () => {
             <div className="about-text">
               <p className="lead">
                 Hi, I'm Utkarsh Tripathi, a passionate Data Analyst and Data Scientist. 
-                I specialize in transforming complex data into actionable insights and 
-                building intelligent solutions using machine learning and deep learning techniques.
+                I can help you to analyze your data and build a model to predict the future,
+                want to know more about me, scroll down.
               </p>
             </div>
             

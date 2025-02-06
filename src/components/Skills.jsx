@@ -23,18 +23,18 @@ const Skills = () => {
       {
         opacity: 1,
         y: 0,
-        duration: 2,
-        ease: "power4.out",
+        duration: 1,
+        ease: "power3.out",
         scrollTrigger: {
-          trigger: skillsRef.current,
+          trigger: ".skills-wrapper",
           start: "top 80%",
-          end: "top 50%",
-          scrub: 2
+          end: "top 30%",
+          scrub: 1
         }
       }
     );
 
-    // Skill categories animation with stagger
+    // Skill categories animation
     gsap.fromTo(
       skillCategoriesRef.current,
       {
@@ -44,14 +44,12 @@ const Skills = () => {
       {
         opacity: 1,
         x: 0,
-        duration: 1.5,
-        stagger: 0.2,
-        ease: "power3.out",
+        stagger: 0.1,
         scrollTrigger: {
-          trigger: ".skills-grid",
-          start: "top 75%",
-          end: "center center",
-          scrub: 1.5
+          trigger: ".skills-wrapper",
+          start: "top 70%",
+          end: "top 20%",
+          scrub: 0.8
         }
       }
     );
