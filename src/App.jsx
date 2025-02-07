@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from '@studio-freight/lenis';
 import Home from './components/Home';

@@ -162,7 +162,7 @@ section {
 /* About section styles */
 .about {
   background: var(--dark-bg);
-  min-height: 200vh;
+  min-height: 100vh;
   width: 100vw;
   position: relative;
   overflow: visible;
@@ -270,7 +270,7 @@ section {
 /* Skills section styles */
 .skills {
   background: var(--dark-bg);
-  min-height: 300vh;
+  min-height: 200vh;
   width: 100vw;
   position: relative;
   overflow: visible;
@@ -666,35 +666,72 @@ section {
   transform: scale(1.05);
 }
 
+.contact {
+  min-height: 40vh;
+}
+
 /* Responsive adjustments */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   section {
-    padding: 60px 0;
+    padding: 2rem 0;
   }
 
   .container {
     padding: 0 1rem;
   }
 
-  .skills-content {
-    gap: 2rem;
-  }
-
-  .skills {
-    padding: 60px 20px;
-  }
-
-  .certificates-grid {
-    grid-template-columns: 1fr;
-  }
-
+  /* About section */
   .about {
-    min-height: auto;
-    padding: 4rem 0;
+    min-height: 120vh;
+    margin-bottom: -6rem; /* Increased negative margin to reduce gap */
   }
 
   .about .container {
     padding: 1rem;
+  }
+
+  /* Skills section */
+  .skills {
+    min-height: 180vh;
+    margin-bottom: -6rem; /* Increased negative margin to reduce gap */
+    padding: 0; /* Remove extra padding */
+  }
+
+  .skills-content {
+    gap: 1.5rem;
+  }
+
+  /* Projects section */
+  .projects {
+    min-height: auto;
+    padding-top: 0; /* Remove top padding */
+  }
+
+  /* Common wrapper styles */
+  .about-wrapper,
+  .skills-wrapper,
+  .projects-wrapper {
+    padding: 2rem 1rem;
+  }
+
+  /* Grid adjustments */
+  .projects-grid,
+  .skills-grid,
+  .certificates-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  /* Remove duplicate rules and consolidate spacing */
+  .technical-skills,
+  .certificates,
+  .about-content {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .certificates-grid {
+    grid-template-columns: 1fr;
   }
 
   .about-content {
@@ -712,13 +749,14 @@ section {
   }
 
   .skills {
-    min-height: auto;
+    min-height: 180vh;
     padding: 4rem 0;
   }
 
   .technical-skills,
   .certificates {
     padding: 1.5rem;
+    margin-bottom: 2rem;
   }
 
   .skills-grid,
@@ -742,12 +780,13 @@ section {
   }
 
   .projects {
-    padding: 3rem 0;
+    min-height: auto;
+    padding-top: 2rem;
   }
 
   .projects-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 2rem;
+    margin-top: 2rem;
   }
 
   .project-card {
@@ -769,6 +808,32 @@ section {
 
   .project-image {
     height: 180px;
+  }
+
+  .info-section {
+    margin-top: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .display-4 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* For smaller phones */
+@media (max-width: 480px) {
+  .about {
+    min-height: 100vh;
+    margin-bottom: -4rem;
+  }
+
+  .skills {
+    min-height: 150vh;
+    margin-bottom: -4rem;
   }
 }
 
