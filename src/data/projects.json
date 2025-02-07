@@ -50,7 +50,7 @@
     {
       "title": "Employee Management System",
       "description": "A comprehensive employee management system with features for employee management, work allocation, and performance tracking.",
-      "techStack": ["React", "Node.js", "MongoDB", "EJS"],
+      "techStack": ["React", "Node.js", "Tailwind CSS", "EJS", "Functional"],
       "githubUrl": "https://github.com/Utkarsh-152/Employee-Management-System",
       "image": "/images/empManagement.png"
     },
