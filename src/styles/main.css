@@ -166,6 +166,7 @@ section {
   width: 100vw;
   position: relative;
   overflow: visible;
+
 }
 
 .about .container {
@@ -197,7 +198,7 @@ section {
 }
 
 .about-text {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 
@@ -270,7 +271,7 @@ section {
 /* Skills section styles */
 .skills {
   background: var(--dark-bg);
-  min-height: 200vh;
+  min-height: 120vh;
   width: 100vw;
   position: relative;
   overflow: visible;
@@ -513,7 +514,7 @@ section {
 .project-card {
   background: rgba(255, 255, 255, 0.03);
   border-radius: 15px;
-  padding: 2rem;
+  padding: 1rem;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;

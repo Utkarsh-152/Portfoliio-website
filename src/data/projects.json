@@ -36,9 +36,9 @@
       "description": "Designed a 94%-accurate predictive model to classify depression and analyze key factors influencing mental health.",
       "techStack": ["Python", "Scikit-learn", "Pandas", "Kaggle"],
       "githubUrl": "https://www.kaggle.com/code/utkarshtripathishrey/catboost-classifier-prediction",
-      "image": "/images/Collab.png"
-
+      "image": "/images/depress.png"
     },
+
     {
       "title": "Scatch",
       "description": "A full-stack e-commerce website. It demonstrates various backend functionalities including user authentication, shopping cart management, and data associations.",
