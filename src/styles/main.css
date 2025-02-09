@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+*::selection {
+  background: #ececec;
+  color: #7350ff;
+}
 
 
 body, html {
